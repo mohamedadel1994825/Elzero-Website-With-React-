@@ -1,12 +1,16 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import 'bootstrap';
+import "bootstrap";
 function App() {
   return (
     <div className="App">
       <head>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-        </link>
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+          integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+          crossorigin="anonymous"
+        ></link>
       </head>
       <div class="upper-bar">
         <div class="container">
@@ -90,7 +94,12 @@ function App() {
       </nav>
       <div id="main-slider" class="carousel slider" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+          <li
+            data-target="#main-slider"
+            data-slide-to="0"
+            class="active"
+            data-interval="1"
+          ></li>
           <li data-target="#main-slider" data-slide-to="1"></li>
           <li data-target="#main-slider" data-slide-to="2"></li>
         </ol>
@@ -318,7 +327,6 @@ function App() {
           </div>
         </div>
       </div>
-
     </div>
   );
 }
